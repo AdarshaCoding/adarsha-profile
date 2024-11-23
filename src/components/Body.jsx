@@ -1,7 +1,12 @@
 import React from "react";
+import ProfileHeader from "./ProfileHeader";
 
 const Body = () => {
-  return <div>Body</div>;
+  return (
+    <div className="container mx-auto">
+      <ProfileHeader />
+    </div>
+  );
 };
 
 export default Body;
